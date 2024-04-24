@@ -4,4 +4,5 @@ app = Flask(__name__)
 
 @app.route("/", methods=["GET"])
 def hello_world():
+    print('teste')
     return 'Teste Docker Flask'
